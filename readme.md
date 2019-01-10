@@ -56,9 +56,11 @@ Possible Extentions
 Setting the hilight colors......
 
 
-#License
+License
+--- 
 [MIT](http://choosealicense.com/licenses/mit/) open source... 
 
-#Donate
+Donate
+--- 
 If you found it useful and it saved you time and effort, please donate...  Thank you!
 [![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/SStahurski)
