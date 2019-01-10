@@ -31,7 +31,7 @@ func searchPrevious()
 
 ```
 The WKWebView extention methods are pretty self explanitory but the handleSearchResultCount is a bit tricky.
-Because Swift, when calling javascript in code does this on a seperate thread, you will have to create a compleation handler closure.
+Because Swift, when calling javascript in code does this on a seperate thread, you will have to create a completion handler closure.
 The code has a great example of how to do this in the view controller.
 
 
