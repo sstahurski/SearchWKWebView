@@ -7,29 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A619D0921E668AE006350F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A619D0821E668AE006350F9 /* AppDelegate.swift */; };
-		4A619D0B21E668AE006350F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A619D0A21E668AE006350F9 /* ViewController.swift */; };
-		4A619D0E21E668AE006350F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A619D0C21E668AE006350F9 /* Main.storyboard */; };
-		4A619D1121E668AE006350F9 /* SearchWKWebView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A619D0F21E668AE006350F9 /* SearchWKWebView.xcdatamodeld */; };
-		4A619D1321E668B2006350F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A619D1221E668B2006350F9 /* Assets.xcassets */; };
-		4A619D1621E668B2006350F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A619D1421E668B2006350F9 /* LaunchScreen.storyboard */; };
-		4A619D1E21E6A88D006350F9 /* SearchWebView.js in Resources */ = {isa = PBXBuildFile; fileRef = 4A619D1D21E6A88D006350F9 /* SearchWebView.js */; };
 		D289151B21E6DD2F00DCFB92 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D289151A21E6DD2F00DCFB92 /* WebKit.framework */; };
-		D289151D21E6E37C00DCFB92 /* SearchWKWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D289151C21E6E37C00DCFB92 /* SearchWKWebView.swift */; };
+		D2A7EA3D24081BB50052A036 /* SearchWKWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A7EA3C24081BB50052A036 /* SearchWKWebView.swift */; };
+		D2A7EA4024081BD20052A036 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A7EA3E24081BD10052A036 /* ViewController.swift */; };
+		D2A7EA4124081BD20052A036 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A7EA3F24081BD20052A036 /* AppDelegate.swift */; };
+		D2A7EA4324081C0E0052A036 /* SearchWebView.js in Resources */ = {isa = PBXBuildFile; fileRef = D2A7EA4224081C0E0052A036 /* SearchWebView.js */; };
+		D2A7EA4824081C590052A036 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A7EA4424081C590052A036 /* Main.storyboard */; };
+		D2A7EA4924081C590052A036 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A7EA4624081C590052A036 /* LaunchScreen.storyboard */; };
+		D2A7EA4D24081F280052A036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A7EA4C24081F280052A036 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4A619D0521E668AE006350F9 /* SearchWKWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchWKWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A619D0821E668AE006350F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4A619D0A21E668AE006350F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4A619D0D21E668AE006350F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4A619D1021E668AE006350F9 /* SearchWKWebView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SearchWKWebView.xcdatamodel; sourceTree = "<group>"; };
-		4A619D1221E668B2006350F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4A619D1521E668B2006350F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A619D1721E668B2006350F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4A619D1D21E6A88D006350F9 /* SearchWebView.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = SearchWebView.js; sourceTree = "<group>"; };
 		D289151A21E6DD2F00DCFB92 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		D289151C21E6E37C00DCFB92 /* SearchWKWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchWKWebView.swift; sourceTree = "<group>"; };
+		D2A7EA3C24081BB50052A036 /* SearchWKWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchWKWebView.swift; path = "WKWebView Extention/SearchWKWebView.swift"; sourceTree = SOURCE_ROOT; };
+		D2A7EA3E24081BD10052A036 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = SOURCE_ROOT; };
+		D2A7EA3F24081BD20052A036 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		D2A7EA4224081C0E0052A036 /* SearchWebView.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = SearchWebView.js; path = "WKWebView Extention/SearchWebView.js"; sourceTree = SOURCE_ROOT; };
+		D2A7EA4524081C590052A036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		D2A7EA4724081C590052A036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		D2A7EA4C24081F280052A036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +45,7 @@
 		4A619CFC21E668AE006350F9 = {
 			isa = PBXGroup;
 			children = (
+				D2A7EA4C24081F280052A036 /* Assets.xcassets */,
 				4A619D0721E668AE006350F9 /* SearchWKWebView */,
 				4A619D0621E668AE006350F9 /* Products */,
 				D289151921E6DD2E00DCFB92 /* Frameworks */,
@@ -64,14 +63,12 @@
 		4A619D0721E668AE006350F9 /* SearchWKWebView */ = {
 			isa = PBXGroup;
 			children = (
+				D2A7EA4624081C590052A036 /* LaunchScreen.storyboard */,
+				D2A7EA4424081C590052A036 /* Main.storyboard */,
+				D2A7EA3F24081BD20052A036 /* AppDelegate.swift */,
+				D2A7EA3E24081BD10052A036 /* ViewController.swift */,
 				D289151E21E6E38D00DCFB92 /* WKWebView Extention */,
-				4A619D0821E668AE006350F9 /* AppDelegate.swift */,
-				4A619D0A21E668AE006350F9 /* ViewController.swift */,
-				4A619D0C21E668AE006350F9 /* Main.storyboard */,
-				4A619D1221E668B2006350F9 /* Assets.xcassets */,
-				4A619D1421E668B2006350F9 /* LaunchScreen.storyboard */,
 				4A619D1721E668B2006350F9 /* Info.plist */,
-				4A619D0F21E668AE006350F9 /* SearchWKWebView.xcdatamodeld */,
 			);
 			path = SearchWKWebView;
 			sourceTree = "<group>";
@@ -87,8 +84,8 @@
 		D289151E21E6E38D00DCFB92 /* WKWebView Extention */ = {
 			isa = PBXGroup;
 			children = (
-				4A619D1D21E6A88D006350F9 /* SearchWebView.js */,
-				D289151C21E6E37C00DCFB92 /* SearchWKWebView.swift */,
+				D2A7EA4224081C0E0052A036 /* SearchWebView.js */,
+				D2A7EA3C24081BB50052A036 /* SearchWKWebView.swift */,
 			);
 			path = "WKWebView Extention";
 			sourceTree = "<group>";
@@ -125,6 +122,7 @@
 				TargetAttributes = {
 					4A619D0421E668AE006350F9 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -151,10 +149,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A619D1621E668B2006350F9 /* LaunchScreen.storyboard in Resources */,
-				4A619D1321E668B2006350F9 /* Assets.xcassets in Resources */,
-				4A619D1E21E6A88D006350F9 /* SearchWebView.js in Resources */,
-				4A619D0E21E668AE006350F9 /* Main.storyboard in Resources */,
+				D2A7EA4824081C590052A036 /* Main.storyboard in Resources */,
+				D2A7EA4924081C590052A036 /* LaunchScreen.storyboard in Resources */,
+				D2A7EA4D24081F280052A036 /* Assets.xcassets in Resources */,
+				D2A7EA4324081C0E0052A036 /* SearchWebView.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,28 +163,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A619D0B21E668AE006350F9 /* ViewController.swift in Sources */,
-				D289151D21E6E37C00DCFB92 /* SearchWKWebView.swift in Sources */,
-				4A619D1121E668AE006350F9 /* SearchWKWebView.xcdatamodeld in Sources */,
-				4A619D0921E668AE006350F9 /* AppDelegate.swift in Sources */,
+				D2A7EA4124081BD20052A036 /* AppDelegate.swift in Sources */,
+				D2A7EA4024081BD20052A036 /* ViewController.swift in Sources */,
+				D2A7EA3D24081BB50052A036 /* SearchWKWebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4A619D0C21E668AE006350F9 /* Main.storyboard */ = {
+		D2A7EA4424081C590052A036 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4A619D0D21E668AE006350F9 /* Base */,
+				D2A7EA4524081C590052A036 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		4A619D1421E668B2006350F9 /* LaunchScreen.storyboard */ = {
+		D2A7EA4624081C590052A036 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4A619D1521E668B2006350F9 /* Base */,
+				D2A7EA4724081C590052A036 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -314,8 +311,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SearchWKWebView/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -323,6 +322,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.anycompany.SearchWKWebView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -332,8 +332,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SearchWKWebView/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -368,19 +370,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		4A619D0F21E668AE006350F9 /* SearchWKWebView.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				4A619D1021E668AE006350F9 /* SearchWKWebView.xcdatamodel */,
-			);
-			currentVersion = 4A619D1021E668AE006350F9 /* SearchWKWebView.xcdatamodel */;
-			path = SearchWKWebView.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 4A619CFD21E668AE006350F9 /* Project object */;
 }
