@@ -11,7 +11,7 @@ import WebKit
 
 extension WKWebView {
 
-    func highlightAllOccurencesOfString(string:String)  {
+    func highlightAllOccurencesOfString(string:String, withBackgroundColor color: UIColor)  {
         
         if let path = Bundle.main.url(forResource: "SearchWebView", withExtension: "js") {
             do{
@@ -23,7 +23,7 @@ extension WKWebView {
                 //inject the search code
                 self.evaluateJavaScript(jsCode, completionHandler: nil)
                 //search function
-                let searchString = "WKWebView_HighlightAllOccurencesOfString('\(string)')"
+                let searchString = "WKWebView_HighlightAllOccurencesOfString('\(string)', '')"
                 //perform search
                 self.evaluateJavaScript(searchString, completionHandler: nil)
 

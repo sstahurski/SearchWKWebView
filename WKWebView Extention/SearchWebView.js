@@ -18,7 +18,7 @@ function WKWebView_HighlightAllOccurencesOfStringForElement(element,keyword) {
                 var text = document.createTextNode(value.substr(idx,keyword.length));
                 span.appendChild(text);
                 span.setAttribute("class","WKWebView_Highlight");
-                span.style.backgroundColor="yellow";
+                span.style.backgroundColor=color;
                 span.style.color="black";
                 text = document.createTextNode(value.substr(idx+keyword.length));
                 element.deleteData(idx, value.length - idx);
@@ -72,9 +72,9 @@ function WKWebView_jump(increment){
 
 
 // the main entry point to start the search
-function WKWebView_HighlightAllOccurencesOfString(keyword) {
+function WKWebView_HighlightAllOccurencesOfString(keyword, color) {
     WKWebView_RemoveAllHighlights();
-    WKWebView_HighlightAllOccurencesOfStringForElement(document.body, keyword.toLowerCase());
+    WKWebView_HighlightAllOccurencesOfStringForElement(document.body, keyword.toLowerCase(), color);
 }
 
 // helper function, recursively removes the highlights in elements and their childs
