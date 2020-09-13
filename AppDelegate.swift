@@ -3,7 +3,6 @@
 //  SearchWKWebView
 //
 //  Created by Scott Stahurski on 1/9/19.
-//  Copyright © 2019 allscripts. All rights reserved.
 //
 
 import UIKit
